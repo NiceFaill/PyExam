@@ -22,3 +22,5 @@ def F(x: int) -> str:
 
 for i in range(1, 64):
     print(i, F(i))
+
+
