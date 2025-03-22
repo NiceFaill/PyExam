@@ -7,5 +7,6 @@ with open("ex9/2.csv", "r") as f:
         x.remove(str(minimum))
         x.remove(str(maximum))
         if ((int(x[0]) + int(x[1]) + maximum) / 6 > minimum) and maximum * minimum > int(x[0]) * int(x[1]):
-            counter += 1
+            counter += 1    
     print(counter)
+    
