@@ -34,7 +34,3 @@
 # A == B = (A <= B) * (B <= A)
 # A == B = A * B + not(A) * not(B)
 # not(A == B) = A * not(B) + not(A) * B
-
-def F(z):
-    pass
-print()
